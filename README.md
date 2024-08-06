@@ -62,14 +62,14 @@ The dataset simulates real-world industrial machinery data and includes the foll
 
 ## Model Performance
 Initial Random Forest model:
-- **Accuracy**: 0.97
-- **Precision for failure detection**: 0.76
+- **Accuracy**: 0.983
+- **Precision for failure detection**: 0.80
 - **Recall for failure detection**: 0.59
 
 Improved model with SMOTE and feature engineering:
-- **Accuracy**: 0.96
-- **Precision for failure detection**: 0.42
-- **Recall for failure detection**: 0.75
+- **Accuracy**: 0.985
+- **Precision for failure detection**: 0.86
+- **Recall for failure detection**: 0.62
 
 ## Conclusions and Recommendations
 1. Implement real-time monitoring of torque as it's the most critical factor in predicting failures.
